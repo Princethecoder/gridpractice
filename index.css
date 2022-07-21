@@ -1,0 +1,25 @@
+.parent {
+  background: black;
+  height: 900px;
+  width: 900px;
+  margin-left: 200px;
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+.child-1 {
+  grid-column: 1/4;
+  background: red;
+}
+.child-2 {
+  background: orange;
+}
+.child-3 {
+  background: blue;
+  grid-column: 2/4;
+}
+
+.child-4 {
+  background: gray;
+  grid-column: 1/4;
+}

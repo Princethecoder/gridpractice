@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.child-1,
+.child-2,
+.child-3,
+.child-4 {
+  /* height: 100px;
+  width: 100px; */
+  background: #4d7298;
+  padding: 10px;
+  color: white;
+  border-radius: 16px;
+}
