@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-row-gap: 12px;
+  grid-column-gap: 12px;
+}
+
+.header,
+.navigation,
+.main,
+.sidebar,
+.ads,
+.footer {
+  border: 1px solid red;
+}
+.header {
+  grid-column: 1 / span 12;
+}
+.navigation {
+  grid-column: 1 / span 12;
+}
+.main {
+  grid-column: 3 / span 10;
+}
+.sidebar {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+.ads {
+  grid-column: 1 / span 12;
+}
+.footer {
+  grid-column: 1 / span 12;
+}

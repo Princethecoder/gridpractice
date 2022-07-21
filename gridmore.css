@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+}
+
+.header,
+.navigation,
+.main,
+.sidebar,
+.ads,
+.footer {
+  border: 1px solid red;
+}
